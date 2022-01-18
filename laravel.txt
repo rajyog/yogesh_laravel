@@ -1,0 +1,14 @@
+create laravel project
+composer create-project --prefer-dist laravel/laravel yogesh
+
+move to project
+cd yogesh_laravel
+
+then configer database in .env file
+
+DB_DATABASE=yogesh_laravel
+
+php artisan migrate
+
+php artisan make:controller CustomAuthController
+https://www.positronx.io/laravel-custom-authentication-login-and-registration-tutorial/
